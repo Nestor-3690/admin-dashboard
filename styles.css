@@ -41,6 +41,12 @@ aside > * {
 
 header {
     display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+header > * {    
+    display: grid;
+    grid-auto-flow: column;
 }
 
 main {
@@ -55,4 +61,14 @@ main {
 #projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+/* Temporary properties */
+
+img[src="images/icon-placeholder.png"] {
+    width: 20px;
+}
+
+img[src="images/placeholder.png"] {
+    width: 50px;
 }
