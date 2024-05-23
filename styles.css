@@ -143,8 +143,29 @@ main {
 }
 
 #announcements {
+    padding: 0rem 2rem;
+    margin-top: 0.5rem;
+    background-color: white;
+    border-radius: 5px;
     display: grid;
 }
+
+#announcement1 > .announcement-title {
+    padding-top: 3rem;
+}
+
+.announcement-title {
+    padding-top: 2rem;
+}
+
+.announcement-main {
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid lightgray;
+}
+
+#announcement3 > .announcement-main {
+    border-bottom: none;
+} 
 
 #trends {
     display: grid;
