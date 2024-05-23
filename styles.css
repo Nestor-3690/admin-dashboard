@@ -90,6 +90,10 @@ input {
     gap: 1.5rem;
 }
 
+#header-row-child4 {
+    width: 7.5rem;
+}
+
 button {
     height: 80%;
     padding: 0.25rem 0.75rem;
@@ -190,4 +194,8 @@ img[src="images/icon-placeholder.png"] {
 
 img[src="images/placeholder.png"] {
     width: 50px;
+}
+
+img[src="images/penguin.png"] {
+    width: 12.5rem;
 }
