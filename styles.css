@@ -30,13 +30,25 @@ body {
 }
 
 aside {
+    background-color: blue;
     display: grid;
     grid-row: 1 / 3;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 1fr;
+    padding: 25px 0px 0px;
+    align-content: center;
 }
 
 aside > * {
     display: grid;
+}
+
+#sidebar-icons {
+    justify-items: center;
+}
+
+#sidebar-navs {
+    justify-items: start;
 }
 
 header {
