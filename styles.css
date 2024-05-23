@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5 {
 }
 
 img {
-    display: block;
+    /* display: block; */
     max-inline-size: 100%;
 }
 
@@ -61,6 +61,14 @@ main {
 #projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.project {
+    display: grid;
+}
+
+.project-icons {
+    place-self: center end;
 }
 
 /* Temporary properties */
