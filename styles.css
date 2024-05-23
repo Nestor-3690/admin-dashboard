@@ -97,7 +97,10 @@ button {
 }
 
 main {
+    background-color: rgb(243, 243, 243);
+    padding: 25px 20px 15px 15px;
     display: grid;
+    gap: 1rem;
     grid-template-columns: 3fr 1fr;
 }
 
@@ -106,16 +109,33 @@ main {
 }
 
 #projects {
+    padding: 0.5rem 0;
     display: grid;
+    gap: 1.25rem;
     grid-template-columns: 1fr 1fr;
 }
 
 .project {
+    background-color: white;
+    border-left: 1rem solid yellow;
+    border-radius: 5px;
     display: grid;
 }
 
+.project-title {
+    padding: 3rem 5rem 0rem 1rem;
+}
+
+.project-description {
+    padding: 0rem 5rem 3rem 1rem;
+}
+
 .project-icons {
+    padding: 2rem;
     place-self: center end;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2rem;
 }
 
 #announcements {
