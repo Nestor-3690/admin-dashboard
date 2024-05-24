@@ -278,9 +278,3 @@ header img[src$=".svg"] {
 #projects img {
     width: 1.75rem;
 }
-/* Temporary properties */
-
-img {
-    min-width: 1rem;
-    max-width: 10rem;
-}
