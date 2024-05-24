@@ -161,6 +161,11 @@ main {
     display: grid;
 }
 
+.announcement {
+    display: grid;
+    gap: 1rem;
+}
+
 #announcement1 > .announcement-title {
     padding-top: 3rem;
 }
@@ -184,15 +189,21 @@ main {
     border-radius: 5px;
     padding: 2rem 2rem 3rem;
     display: grid;
+    gap: 1.5rem;
 }
 
 .trend {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
 }
 
 .trend img {
     grid-row: 1 / 3;
+}
+
+.trend-name,
+.trend-project {
+    align-self: center;
 }
 /* Images properties */
 
