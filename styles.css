@@ -205,11 +205,16 @@ main {
 
 .announcement-title {
     padding-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .announcement-main {
     padding-bottom: 2.5rem;
     border-bottom: 1px solid lightgray;
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: 0.5px;
 }
 
 #announcement3 > .announcement-main {
