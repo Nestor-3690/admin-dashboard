@@ -87,9 +87,10 @@ header > * {
 
 input {
     place-self: center;
-    height: 70%;
     width: 90%;
-    background-color: #e2e8f0;
+    background-color: #f1f5f9;
+    font-size: 1rem;
+    padding: 1rem;
     border: none;
     border-radius: 30px;
     outline: none;
