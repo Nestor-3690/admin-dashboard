@@ -30,7 +30,7 @@ img {
 body {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: auto 1fr;
 }
 
 aside {
@@ -108,6 +108,7 @@ main {
     display: grid;
     gap: 1rem;
     grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto 1fr;
 }
 
 #your-projects {
@@ -198,4 +199,9 @@ img[src="images/placeholder.png"] {
 
 img[src="images/penguin.png"] {
     width: 12.5rem;
+}
+
+header img,
+main img {
+    min-width: 2.5rem;
 }
