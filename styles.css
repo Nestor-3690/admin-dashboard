@@ -224,6 +224,10 @@ main {
     letter-spacing: 0.5px;
 }
 
+#announcement3 .announcement-main {
+    padding-bottom: 3rem;
+}
+
 #announcement3 > .announcement-main {
     border-bottom: none;
 } 
@@ -232,7 +236,7 @@ main {
     margin-top: 0.5rem;
     background-color: white;
     border-radius: 5px;
-    padding: 2rem 2rem 3rem;
+    padding: 2.5rem 2rem;
     display: grid;
     gap: 1.5rem;
 }
