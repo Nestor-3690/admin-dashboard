@@ -242,6 +242,11 @@ main {
 .trend-name,
 .trend-project {
     align-self: center;
+    font-size: 1.25rem;
+}
+
+.trend-project {
+    font-weight: 300;
 }
 /* Images properties */
 
