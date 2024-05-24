@@ -66,6 +66,7 @@ header {
     padding: 1rem 3.0rem;
     display: grid;
     grid-template-columns: auto 5fr 3fr;
+    gap: 2rem 1rem
 }
 
 header > * {
@@ -86,7 +87,7 @@ input {
 
 #header-row1-col3 {
     justify-content: center;
-    gap: 5.0rem;
+    gap: 3.5rem;
 }
 
 #header-row2-col1 {
@@ -96,11 +97,11 @@ input {
 }
 
 #header-row2-col2 {
-    gap: 1.5rem;
+    gap: 3.5rem;
 }
 
 button {
-    height: 80%;
+    height: 60%;
     padding: 0.25rem 0.75rem;
     background-color: aqua;
     border: none;
