@@ -142,6 +142,11 @@ main {
     grid-template-rows: auto 1fr;
 }
 
+.projects-text, .announcements-text, .trending-text {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
 #your-projects {
     grid-row: 1 / 3;
 }
@@ -158,16 +163,19 @@ main {
     border-left: 1rem solid yellow;
     border-radius: 5px;
     display: grid;
-    grid-template-rows: 1fr 1.5fr 1fr;
-    gap: 0.5rem;
+    grid-template-rows: 0.5fr 1.5fr 1fr;
+    gap: 1rem;
 }
 
 .project-title {
     padding: 3rem 5rem 0rem 1rem;
+    font-size: 1.75rem;
+    font-weight: 600;
 }
 
 .project-description {
     padding: 0rem 5rem 3rem 1rem;
+    font-size: 1.25rem;
 }
 
 .project-icons {
